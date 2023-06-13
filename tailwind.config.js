@@ -5,16 +5,14 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  // tailwind.config.js
-
-    theme: {
-      extend: {
-        colors: {
-          'dark-blue': '#000080', // Replace with your preferred dark blue color
-        },
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'dark-blue': '#000080', // Replace with your preferred dark blue color
       },
     },
-    variants: {},
-    plugins: [],
-  };
-
+  },
+  variants: {},
+  plugins: [],
+};
