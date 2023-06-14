@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Navbar from "@/app/shared/Navbar";
 import Hero from "@/app/shared/Hero";
 import Pugs from "@/app/shared/pugs";
+import Footer from "@/app/shared/Footer";
 export default function Home() {
   return (
       <>
@@ -9,7 +10,7 @@ export default function Home() {
           <Navbar />
             <Hero />
           <Pugs />
-          <div>Pic of the two pugs</div>
+          <Footer />
       </section>
       </>
   )
