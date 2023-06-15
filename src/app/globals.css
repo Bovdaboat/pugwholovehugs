@@ -2,22 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-@layer utilities {
-    .yellow-black-theme {
-        --tw-text-opacity: 1;
-        --tw-bg-opacity: 1;
-        --primary-color: rgba(255, 255, 0, var(--tw-text-opacity)); /* Yellow */
-        --secondary-color: rgba(0, 0, 0, var(--tw-text-opacity)); /* Black */
-        --bg-primary: rgba(255, 255, 0, var(--tw-bg-opacity));
-        --bg-secondary: rgba(0, 0, 0, var(--tw-bg-opacity));
-    }
-}
 
-@layer components {
-    .yellow-black-theme {
-        @apply bg-secondary text-primary;
-    }
-}
 
 
 
