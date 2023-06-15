@@ -4,8 +4,8 @@ import React from "react"
 
 const Navbar = () => {
     return(
-        <div className="bg-yellow-300">
-        <div className="flex justify-center my-10 text-4xl">PugLoves</div>
+        <div className="bg-yellow-300 max-h-max p-5 font-medium">
+        <div className="flex justify-center text-4xl">PugLoves</div>
         </div>
     )
 }
